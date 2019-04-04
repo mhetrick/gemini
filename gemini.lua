@@ -7,9 +7,12 @@
 --ENC 2: modify L param
 --ENC 3: modify R param
 --
---KEY 1: hold to modify both params
---KEY 2: 
+--KEY 1: hold to modify both 
+--params with ENC 2
+--KEY 2: start/stop
 --KEY 3: reset granulators
+--
+--supports arc 4
 
 engine.name = 'Gemini'
 
