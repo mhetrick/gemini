@@ -1,18 +1,18 @@
---gemini
+-- gemini
 --
---twin granulators
---watch them race
+-- twin granulators
+-- watch them race
 --
---ENC 1: select param
---ENC 2: modify L param
---ENC 3: modify R param
+-- ENC 1: select param
+-- ENC 2: modify L param
+-- ENC 3: modify R param
 --
---KEY 1: hold to modify both 
---params with ENC 2
---KEY 2: start/stop
---KEY 3: reset granulators
+-- KEY 1: hold to modify both 
+-- params with ENC 2
+-- KEY 2: start/stop
+-- KEY 3: reset granulators
 --
---supports arc 4
+-- supports arc 4
 
 engine.name = 'Gemini'
 
