@@ -69,12 +69,18 @@ function init()
   
   counter = metro.init(count, 0.01, -1)
   counter:start()
+
+  re = metro.init()
+  re.time = 0.03
+  re.event = function()
+    arc_redraw()
+  end
+  re:start()  
 end
 
 function count()
   redraw()
 end
-
 
 local function reset_voice()
   engine.seek(0)
@@ -286,10 +292,3 @@ arc_redraw = function()
   
   a:refresh()
 end
-
-re = metro.init()
-re.time = 0.03
-re.event = function()
-  arc_redraw()
-end
-re:start()
